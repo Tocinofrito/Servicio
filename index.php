@@ -18,8 +18,16 @@ $conn = new mysqli($servername, $username, $password);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-echo "Connected successfully to MySQL";
+//echo "Connected successfully to MySQL";
 //Muetra ruta en la que esta el proyecto echo(getcwd());
+require_once 'libs/database.php';
+require_once 'libs/controller.php';
+require_once 'libs/view.php';
+require_once 'controller/error.php';
 require_once 'libs/app.php';
+
+require_once 'config.php/config.php';
+
+$app = new App();
 error_log('Termina error_log');
 error_log('-----------------------------------------------------------------------------------------------------------------------------------------');
