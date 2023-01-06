@@ -1,0 +1,7 @@
+[06-Jan-2023 05:57:36 Europe/Berlin] Prueba de error 1
+[06-Jan-2023 05:57:38 Europe/Berlin] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for mysql failed: Host desconocido.  in C:\xampp\htdocs\Servicio\index.php on line 15
+[06-Jan-2023 05:57:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for mysql failed: Host desconocido.  in C:\xampp\htdocs\Servicio\index.php:15
+Stack trace:
+#0 C:\xampp\htdocs\Servicio\index.php(15): mysqli->__construct('mysql', 'root', 'toor')
+#1 {main}
+  thrown in C:\xampp\htdocs\Servicio\index.php on line 15

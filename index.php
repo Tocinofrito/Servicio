@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 ini_set('ignore_repeated_errors', TRUE);
 ini_set('display_errors',TRUE); //Usar true para desarrollo ya que así nos mostrará los errores que vayan surgiendo
 ini_set('log_errors', TRUE); //Hará que se registre en un error_log en vez del registro de errores del servidor
-ini_set("error_log", "/source/php-error.log");
+ini_set("error_log", "php-error.log");
 error_log('Prueba de error 1');
 
 $servername = "mysql";
